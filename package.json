@@ -1,0 +1,34 @@
+{
+  "author": "Bogdan Nechyporenko",
+  "description": "React components",
+  "name": "big-numbers",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "babel-plugin-add-module-exports": "0.2.1",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-stage-0": "6.24.1",
+    "jasmine-collection-matchers": "0.2.0",
+    "jasmine-fail-fast": "2.0.0",
+    "jasmine-object-matchers-jest": "0.1.0",
+    "jasmine-reporters": "2.3.2",
+    "jasmine-spec-reporter": "4.2.1",
+    "jest": "23.6.0",
+    "mathjs": "^5.2.0"
+  },
+  "jest": {
+    "moduleDirectories": [
+      "node_modules",
+      "src"
+    ],
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "notify": true,
+    "roots": [
+      "<rootDir>/tests"
+    ],
+    "testRegex": "/.*-spec\\.(js)$",
+    "verbose": true
+  }
+}
